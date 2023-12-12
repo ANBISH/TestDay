@@ -5,125 +5,198 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>TestDAy</title>
-    <meta name="title" content="Мое портфолио" />
+    <meta name="title" content="my test day" />
     <meta
       name="description"
       content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне"
     />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://metatags.io/" />
-    <meta property="og:title" content="Мое портфолио" />
-    <meta
-      property="og:description"
-      content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне"
-    />
-    <meta
-      property="og:image"
-      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
-    />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://metatags.io/" />
-    <meta property="twitter:title" content="Мое портфолио" />
-    <meta
-      property="twitter:description"
-      content="Здесь вы сможете ознакомиться с моими работами и узнать больше обо мне"
-    />
-    <meta
-      property="twitter:image"
-      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
-    />
-
-    <!-- Favicon  -->
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="icons/favicon/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="icons/favicon/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="icons/favicon/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="icons/favicon/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="icons/favicon/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="icons/favicon/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="icons/favicon/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="icons/favicon/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="icons/favicon/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="icons/favicon/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="icons/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="icons/favicon/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="icons/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="icons/favicon/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta
-      name="msapplication-TileImage"
-      content="icons/favicon/ms-icon-144x144.png"
-    />
-    <meta name="theme-color" content="#ffffff" />
-
     <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
   </head>
   <body>
     <header class="header">
-      <h1>Dmytro</h1>
+      <img src="icons/header/menu/logo.svg" alt="logo" class="header__logo" />
+      <div class="container">
+        <menu class="header__menu">
+          <ul class="header__items">
+            <li class="header__item">
+              <a href="" class="header__link"> КАТАЛОГ</a>
+            </li>
+            <li class="header__item">
+              <a href="" class="header__link"> SALE</a>
+            </li>
+            <li class="header__item">
+              <a href="" class="header__link"> ОПТ</a>
+            </li>
+            <li class="header__item">
+              <a href="" class="header__link"> О НАС</a>
+            </li>
+            <li class="header__item">
+              <a href="" class="header__link"> ОТЗЫВЫ</a>
+            </li>
+            <li class="header__item">
+              <a href="" class="header__link"> ДОСТАВКА И ОПЛАТА</a>
+            </li>
+            <li class="header__item">
+              <a href="" class="header__link"> КОНТАКТЫ</a>
+            </li>
+          </ul>
+
+          <div class="header__icons">
+            <img
+              src="icons/header/menu/search.svg"
+              alt="search"
+              class="header__icons-icon"
+            /><img
+              src="icons/header/menu/heart.svg"
+              alt="heart"
+              class="header__icons-icon"
+            /><img
+              src="icons/header/menu/basket.svg"
+              alt="basket"
+              class="header__icons-icon"
+            /><img
+              src="icons/header/menu/user.svg"
+              alt="user"
+              class="header__icons-icon"
+            />
+          </div>
+        </menu>
+        <div class="header__wrapper">
+          <div class="header__wrapper-info">
+            <h1 class="header__wrapper-title">МУЖСКАЯ КОЛЛЕКЦИЯ</h1>
+            <h2 class="header__wrapper-subtitle">
+              Распродажа коллекций со скидками до 50%, <br />доставка до вашего
+              склада
+            </h2>
+            <button class="btn">ПОДРОБНЕЕ</button>
+          </div>
+          <div class="header__carusel">
+            <img src="icons/header/bgSkide.svg" alt="bgSkide" />
+            <div class="carousel__inner">
+              <div><img src="img/carusel/slide1.png" alt="slide" /></div>
+              <div><img src="img/carusel/slide1.png" alt="slide" /></div>
+              <div><img src="img/carusel/slide1.png" alt="slide" /></div>
+            </div>
+          </div>
+          <div class="navigate">
+            <div class="navigate__carusel">
+              <div class="navigate__carusel-one">01</div>
+              <div class="navigate__carusel-two">02</div>
+              <div class="navigate__carusel-three">03</div>
+              <div class="navigate__carusel-four">04</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/jquery.maskedinput.min.js"></script>
+
+    <section class="action">
+      <div class="container">
+        <div class="action__items">
+          <div class="action__item">
+            <img src="img/action/action1.png" alt="action" />
+            <div class="action__descr">
+              <h2 class="action__title">Акции- <br />Новая серия</h2>
+              <div class="action__subtitle">
+                Мужские футболки с модными принтами в стиле Хайтек
+              </div>
+            </div>
+          </div>
+          <div class="action__item">
+            <img src="img/action/action2.png" alt="action" />
+            <div class="action__descr">
+              <h2 class="action__title">Успей до 10.04</h2>
+              <div class="action__subtitle">
+                Распродажа со скидками<br />
+                до 50%. Мужские футболки <br />всех размеров.
+              </div>
+            </div>
+          </div>
+          <div class="action__item">
+            <img src="img/action/action3.png" alt="action" />
+            <div class="action__descr">
+              <h2 class="action__title">Скидки до 45%</h2>
+              <div class="action__subtitle">
+                На все футболки серии <br />Лето 2019 при заказе от <br />
+                2000 грн.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="catalog">
+      <div class="container">
+        <ul class="catalog__tabs">
+          <li class="catalog__tab catalog__tab_active">
+            <div>Новинки</div>
+          </li>
+          <li class="catalog__tab"><div>ТОП продаж</div></li>
+          <li class="catalog__tab"><div>Скидки</div></li>
+        </ul>
+
+        <div class="catalog__content">
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <img src="icons/new.svg" alt="new" />
+            </div>
+            <div class="catalog-item__size">
+              <img src="icons/rating.svg" alt="rating" />
+              <div class="catalog-item__size-item">S <span>M</span> L</div>
+            </div>
+            <div class="catalog-item__descr">
+              Футболка мужская Exclusive 22032
+            </div>
+            <div class="catalog-item__price">245₴</div>
+          </div>
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <img src="icons/new.svg" alt="new" />
+            </div>
+            <div class="catalog-item__size">
+              <img src="icons/rating.svg" alt="rating" />
+              <div class="catalog-item__size-item">S <span>M</span> L</div>
+            </div>
+            <div class="catalog-item__descr">
+              Футболка мужская Exclusive 22032
+            </div>
+            <div class="catalog-item__price">245₴</div>
+          </div>
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <img src="icons/new.svg" alt="new" />
+            </div>
+            <div class="catalog-item__size">
+              <img src="icons/rating.svg" alt="rating" />
+              <div class="catalog-item__size-item">S <span>M</span> L</div>
+            </div>
+            <div class="catalog-item__descr">
+              Футболка мужская Exclusive 22032
+            </div>
+            <div class="catalog-item__price">245₴</div>
+          </div>
+          <div class="catalog-item">
+            <div class="catalog-item__wrapper">
+              <img src="icons/new.svg" alt="new" />
+            </div>
+            <div class="catalog-item__size">
+              <img src="icons/rating.svg" alt="rating" />
+              <div class="catalog-item__size-item">S <span>M</span> L</div>
+            </div>
+            <div class="catalog-item__descr">
+              Футболка мужская Exclusive 22032
+            </div>
+            <div class="catalog-item__price">245₴</div>
+          </div>
+        </div>
+        <button class="btn btn-catalog">Посмотреть каталог</button>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

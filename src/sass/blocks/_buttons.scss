@@ -1,0 +1,17 @@
+.btn {
+  width: 313px;
+  height: 73px;
+  border: 1px solid var(--Black-1, #0f0f0f);
+  background: #fff;
+  color: var(--Black-1, #0f0f0f);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.26px;
+  &-catalog {
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    width: 370px;
+    height: 73px;
+  }
+}

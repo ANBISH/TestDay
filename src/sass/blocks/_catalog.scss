@@ -1,0 +1,97 @@
+.catalog {
+  padding: 94px 0 96px 0;
+  &__tabs {
+    margin: 0 auto;
+    display: flex;
+    width: 753px;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    margin-bottom: 104px;
+  }
+  &__tab {
+    list-style-type: none;
+    width: 181px;
+    height: 43px;
+    color: var(--Grey-2, #878787);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.26px;
+    &_active {
+      border-bottom: 6px solid #000;
+      color: #000;
+    }
+  }
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(206px, 1fr));
+    grid-template-rows: 660px;
+    grid-auto-rows: 660px;
+    gap: 63px 96px;
+  }
+  &-item {
+    width: 100%;
+    &__wrapper {
+      position: relative;
+      width: 100%;
+      height: 531px;
+      background: url("../../img/bgTab.jpg") center center/cover no-repeat;
+      &::before {
+        content: "NEW";
+        color: var(--White, #fff);
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.4px;
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 7px;
+        left: 7px;
+        width: 63px;
+        height: 63px;
+      }
+      img {
+        width: 63px;
+        height: 63px;
+      }
+    }
+    &__size {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 13px;
+      img {
+        width: 150px;
+      }
+      &-item {
+        color: var(--Grey-3, #cecece);
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        span {
+          color: var(--Black-1, #0f0f0f);
+        }
+      }
+    }
+    &__descr {
+      margin-top: 11px;
+      color: #0f0f0f;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &__price {
+      margin-top: 25px;
+      color: #0f0f0f;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 2.1px;
+    }
+  }
+}
